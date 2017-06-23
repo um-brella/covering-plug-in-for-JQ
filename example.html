@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/covering.js"></script>
+    <style>
+        #box{
+            width: 300px;
+            height: 300px;
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <div id="box"></div>
+</body>
+<script type="text/javascript">
+ $("#box").covering({
+     coveringText : "加载用户信息中，请稍候",
+     coveringHide:false,
+     opacity: 0.4,
+     bgColor: "red",
+     fontColor: "green",
+     onLoadSuccess:"didi"
+ });
+ //$("#box").covering("setCoveringText","系统错误，请与管理员联系");
+ //$("#box").covering("hide","系统错误，请与管理员联系");
+</script>
+</html>
