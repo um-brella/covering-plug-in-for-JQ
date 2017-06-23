@@ -47,5 +47,5 @@ html结构如下
 </body>
 ```
 
-效果图如下
+效果图如下<br>
 ![Alt text](covering.png "打地鼠效果图")
